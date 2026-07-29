@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Suzuno Taira">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="main.css">
+    <title>ねこねこねこ歯科医院</title>
+</head>
+
+<body>
+    <header id="top">
+        <h1>ねこねこねこ歯科医院</h1>
+        <nav>
+            <a href="#top">ホーム</a>
+            <a href="#about">当院の特徴</a>
+            <a href="#access">アクセス</a>
+            <a href="#reservation">予約</a>
+            <a href="#contact">問い合わせ</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>  <link rel="stylesheet" href="main.css">
+
+            <h2>診療状況</h2>
+            <p id="today"></p>
+
+            <section id="about">
+                <h2>当院について</h2>
+                <img src="./hamigaki_cat.png" alt="歯磨き中の猫です" width="200" height="200">
+                <p>ねこねこねこ歯科医院は、地域の皆様に安心してご利用いただける歯科医院を目指しています。最新の設備と技術を導入し、患者様一人ひとりに丁寧な診療を提供しています。</p>
+
+                <ul>
+                    <li><a href="./c.html" target="_blank">当院の特徴</a></li>
+
+                </ul>
+            </section>
+
+            <section>
+                <h2>診療内容</h2>
+                <ul>
+                    <li>一般歯科治療</li>
+                    <li>予防歯科</li>
+                    <li>インプラント治療</li>
+                </ul>
+            </section>
+
+        </section>
+
+
+        <section id="access">
+
+            <h2>アクセス</h2>
+
+
+            <p>〒000-0000 東京都猫猫区2-22</p>
+
+            <ul>
+                <li>JR八王子駅からバスで15分</li>
+                <li>駐車場完備（10台分）</li>
+            </ul>
+
+        </section>
+
+        <section id="reservation">
+            <h2>予約について</h2>
+            <ul>
+                <li><a href="./b.html" target="_blank">予約ページへ</a></li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>お問い合わせは以下のフォームからお願いいたします。</p>
+            <form action="index.html" method="post">
+
+                <div>
+                    <label for="remarks">問い合わせ内容：</label>
+                    <textarea name="remarks" id="remarks" rows="4" cols="50" accesskey="r" tabindex="1"
+                        placeholder="問い合わせ内容を入力してください">お問い合わせ内容を入力してください。</textarea>
+                </div>
+
+                <div>
+                    <button onclick="send()">送信</button>
+                </div>
+
+            </form>
+        </section>
+
+        <a href="#top">トップに戻る</a>
+
+    </main>
+
+    <footer>
+        copyright&copy; Suzuno TAIRA, All rights reserved.
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
